@@ -1,0 +1,31 @@
+.role-selection-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .role-cards {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .role-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .role-card:hover {
+    background-color: #e0e0e0;
+  }
+  
